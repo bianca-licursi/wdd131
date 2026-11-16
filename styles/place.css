@@ -99,3 +99,29 @@ footer {
 footer p {
     margin: 0.25rem 0;
 }
+/* ===== Desktop view ===== */
+@media (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space);
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: var(--space);
+    }
+
+    /* Hero spans both columns */
+    .hero {
+        grid-column: 1 / -1;
+    }
+
+    /* Hide the SVG icon on desktop */
+    .weather-icon {
+        display: none;
+    }
+
+    /* Weather emoji on desktop */
+    .weather h2::after {
+        content: " ⛅";
+    }
+}
