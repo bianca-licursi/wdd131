@@ -1,0 +1,101 @@
+/* ===== Global variables ===== */
+:root {
+    --color-wine: #6b1e3a;     /* Malbec wine */
+    --color-andes: #2f4b6e;    /* Andes blue */
+    --color-sand: #f1e8d8;     /* sand */
+    --color-text: #1f1a1a;
+    --color-white: #ffffff;
+    --color-gold: #c9a24a;
+
+    --font-heading: Georgia, "Times New Roman", serif;
+    --font-body: "Segoe UI", Roboto, Arial, sans-serif;
+    --space: 1rem;
+}
+
+/* ===== Base (mobile first) ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-sand);
+}
+
+h1, h2 {
+    font-family: var(--font-heading);
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.label {
+    font-weight: 700;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: var(--color-wine);
+    color: var(--color-white);
+    text-align: center;
+    padding: var(--space);
+}
+
+/* ===== Hero ===== */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ===== Data and Weather sections ===== */
+.data,
+.weather {
+    padding: calc(var(--space) * 1.5) var(--space);
+}
+
+.data {
+    background-color: var(--color-white);
+}
+
+.weather {
+    background-color: var(--color-andes);
+    color: var(--color-white);
+}
+
+.data h2,
+.weather h2 {
+    margin-bottom: var(--space);
+    border-bottom: 3px solid var(--color-gold);
+    display: inline-block;
+}
+
+.data li,
+.weather li {
+    padding: 0.25rem 0;
+}
+
+/* Weather SVG icon: visible on mobile */
+.weather-icon {
+    display: block;
+    margin-bottom: var(--space);
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: var(--color-wine);
+    color: var(--color-white);
+    text-align: center;
+    padding: var(--space);
+}
+
+footer p {
+    margin: 0.25rem 0;
+}

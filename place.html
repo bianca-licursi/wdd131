@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">"
+<meta name="description" content="Discover Mendoza, Argentina: wine country at the foot of the Andes, with facts and current weather.">
+    <title>Mendoza, Argentina | Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mendoza, Argentina</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 700px)" srcset="images/mendoza-large.webp">
+                <img src="images/mendoza-small.webp"
+                     alt="Vineyards in Mendoza with the Andes mountains in the background"
+                     width="600" height="400">
+            </picture>
+        </section>
+
+        <section class="data">
+            <h2>Mendoza Data</h2>
+            <ul>
+                <li><span class="label">Capital:</span> Mendoza City</li>
+                <li><span class="label">Country:</span> Argentina</li>
+                <li><span class="label">Area:</span> 148,827 km²</li>
+                <li><span class="label">Highest point:</span> Aconcagua, 6,961 m</li>
+                <li><span class="label">Language:</span> Spanish</li>
+                <li><span class="label">Known for:</span> Malbec wine, Andes mountains, rafting</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/weather-icon.svg" alt="Partly cloudy weather icon" width="48" height="48">
+            <ul>
+                <li><span class="label">Temperature:</span> <span id="temperature">8</span>°C</li>
+                <li><span class="label">Conditions:</span> Partly cloudy</li>
+                <li><span class="label">Wind:</span> <span id="wind">15</span> km/h</li>
+                <li><span class="label">Wind chill:</span> <span id="windchill">N/A</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Bianca Licursi · Mendoza, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
