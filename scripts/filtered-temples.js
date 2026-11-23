@@ -1,5 +1,4 @@
 const temples = [
-  // 7 originales
   {
     templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
@@ -56,27 +55,29 @@ const temples = [
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  // 3 agregados por ti
   {
     templeName: "Rome Italy",
     location: "Rome, Italy",
     dedicated: "2019, March, 10",
     area: 41010,
-    imageUrl: "PEGA_AQUI_LA_URL_ABSOLUTA"
-  },
-  {
-    templeName: "Mendoza Argentina",
-    location: "Mendoza, Argentina",
-    dedicated: "2024, March, 17",
-    area: 19000,
-    imageUrl: "PEGA_AQUI_LA_URL_ABSOLUTA"
+    imageUrl:
+      "https://bianca-licursi.github.io/wdd131/images/rome-italy-temple.webp"
   },
   {
     templeName: "Salta Argentina",
     location: "Salta, Argentina",
     dedicated: "2025, March, 16",
     area: 27000,
-    imageUrl: "PEGA_AQUI_LA_URL_ABSOLUTA"
+    imageUrl:
+      "https://bianca-licursi.github.io/wdd131/images/salta-argentina-temple.webp"
+  },
+  {
+    templeName: "Mendoza Argentina",
+    location: "Mendoza, Argentina",
+    dedicated: "2024, March, 17",
+    area: 19000,
+    imageUrl:
+      "https://bianca-licursi.github.io/wdd131/images/mendoza-argentina-temple.webp"
   }
 ];
 
